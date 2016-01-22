@@ -45,6 +45,8 @@ p{
 	line-height:2.5rem;
 	}
 	
+a{color:#df4f33;}
+	
 strong{
 	font-weight:bold;
 	}
@@ -59,7 +61,7 @@ div.details ul li{
 	
 /*structure*/
 .container{width:100%;padding:0 6rem;}
-div.about_company, #gallerydiv {
+div.about_company, #gallerydiv, .full-bio {
 	padding:6rem 0 4rem;
 	border-bottom:black solid .5rem;
 	}
@@ -118,3 +120,28 @@ div.contact_details strong{font-size:2rem;}
 	margin-left:55%;
 	
 	}
+	
+	
+	
+/*About Page */
+.row{margin:0;}
+div.full-bio{width:100%;}
+div.image_box{
+	width:25%;
+	text-align:center;
+	float:left;
+	}
+div.bio_box{
+	width:70%;
+	height:auto;
+	margin-left:30%;
+	}
+.bio-name, .bio-title, div.bio-title h3, div.bio-name h1{
+	margin:0;
+	padding:0;
+	line-height:3rem; 
+	}
+.last{border:none;}
+
+div.image-cropper{
+	margin:2.75rem 0 3.5rem;	}
