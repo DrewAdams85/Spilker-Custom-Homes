@@ -16,10 +16,17 @@
     width: 33%;
     text-align: center;
     float: right;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+	padding-bottom:2rem;
 }
+.colleft{
+	padding-right:3rem;
+	}
+.colmid{
+	padding:0 1.5rem;
+	}
+.colright{
+	padding-left:3rem;
+	}
 .content-left {
     padding-right: 0px;
     padding-left: 0px;
@@ -42,7 +49,7 @@
 .container {
     padding-top: 15px;
     position: relative;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFFF;
@@ -50,7 +57,7 @@
 .container-contact {
     padding-top: 15px;
     position: relative;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFFF;
