@@ -68,8 +68,8 @@ div.about_company img{
 	
 div.about {
 	display:block;
-	margin-left:37.5vw;
-	padding-left:3rem;
+	margin:0 0 0 37.5vw;
+	padding:0 0 0 3rem;
 	}
 	
 div.about_company h3{
