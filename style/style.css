@@ -17,15 +17,16 @@
     text-align: center;
     float: right;
 	padding-bottom:2rem;
+	padding-top:1rem;
 }
 .colleft{
-	padding-right:3rem;
+	padding-right:2rem;
 	}
 .colmid{
-	padding:0 1.5rem;
+	padding:1rem;
 	}
 .colright{
-	padding-left:3rem;
+	padding-left:2rem;
 	}
 .content-left {
     padding-right: 0px;

@@ -56,7 +56,7 @@ div.details ul li{
 /*structure*/
 .container{width:100%;padding:0 6rem;}
 div.about_company, #gallerydiv {
-	padding:6rem 0;
+	padding:6rem 0 4rem;
 	border-bottom:black solid .5rem;
 	}
 
@@ -76,15 +76,33 @@ div.about_company h3{
 	padding-bottom:1.5rem;
 	}
 	
-#detailswrap, div.about_company h3 {
+#detailswrap, div.about_company h3,#linkholder {
 	clear:both;
-	margin:3rem 0 0;
-	
+	margin:0 0;
 	}
-.rightlink{text-align:right;text-decoration:underline;}
+
+.rightlink{
+	text-align:right;
+	text-decoration:underline;
+	padding-top:2rem;}
 
 div.details {float:left;}
 
-div.gallery-column{
-	margin-top:2.5rem;
-}
+div.details h3{padding-top:3rem;}
+
+div.contact{
+	padding:6rem 0 4rem;
+
+	}
+
+#contactwrap{
+	width:55%;
+	float:left;
+	padding:0 3rem 0 0;
+	}
+
+.maps{
+	margin-left:55%;
+	width:45%;
+	
+	}
