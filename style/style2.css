@@ -84,3 +84,7 @@ div.about_company h3{
 .rightlink{text-align:right;text-decoration:underline;}
 
 div.details {float:left;}
+
+div.gallery-column{
+	margin-top:3rem;
+}
