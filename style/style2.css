@@ -22,9 +22,10 @@ html,body{
 /*Type Styling */
 
 h1{
-	font-size:5rem;
-	line-height:5rem;
+	font-size:4.75rem;
+	line-height:4rem;
 	padding-bottom:1.5rem;
+	margin-top:-.75rem;
 
 	}
 h2{
@@ -40,10 +41,13 @@ h4{
 	line-height:4rem;
 	}
 p{
-	font-size:1.5rem;
-	line-height:2rem;
+	font-size:1.75rem;
+	line-height:2.5rem;
 	}
 	
+strong{
+	font-weight:bold;
+	}
 div.details ul li{
 	font-family:MuseoSlabItalic;
 	font-size:2rem;
@@ -61,14 +65,15 @@ div.about_company, #gallerydiv {
 	}
 
 div.about_company img{
-	width:37.5vw;
+	width:33.3vw;
 	height:auto;
 	float:left;
+	margin-top:10rem;
 	}
 	
 div.about {
 	display:block;
-	margin:0 0 0 37.5vw;
+	margin:0 0 0 33.3vw;
 	padding:0 0 0 3rem;
 	}
 	
@@ -92,8 +97,14 @@ div.details h3{padding-top:3rem;}
 
 div.contact{
 	padding:6rem 0 4rem;
-
 	}
+div.contact_details{
+	margin-bottom:3rem;
+	}
+div.contact_details h3{
+	padding-bottom:1rem;
+	}
+div.contact_details strong{font-size:2rem;}
 
 #contactwrap{
 	width:55%;
@@ -102,7 +113,8 @@ div.contact{
 	}
 
 .maps{
-	margin-left:55%;
 	width:45%;
+	height:40vw;
+	margin-left:55%;
 	
 	}
