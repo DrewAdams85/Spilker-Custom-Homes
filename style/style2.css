@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 @font-face {
-    font-family: "MuseoSlab";
-    src: url('../assets/Museo_Slab_500_2-webfont.ttf');
+    font-family: MuseoSlab;
+    src: url(../assets/Museo_Slab_500_2-webfont.ttf);
 }
 @font-face {
-    font-family: "MuseoSlabItalic";
-    src: url('../assets/Museo_Slab_500italic-webfont.ttf');
+    font-family: MuseoSlabItalic;
+    src: url(../assets/Museo_Slab_500italic-webfont.ttf);
 }
 
 
@@ -14,7 +14,7 @@ html,body{
 	font-size:.75vw;
 	line-height:.75vw;
 	color:#000;
-	font-family:"MuseoSlab";
+	font-family:MuseoSlab;
 	width:100%;
 	height:100%;
 	background:#fff;
