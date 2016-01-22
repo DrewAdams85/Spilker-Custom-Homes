@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: MuseoSlab;
+    src: url(../assets/Museo_Slab_500_2.otf);
+}
+@font-face {
+    font-family: MuseoSlabItalic;
+    src: url(../assets/Museo_Slab_500italic.otf);
+}
+
+
+html,body{
+	font-size:.75vw;
+	line-height:.75vw;
+	color:#000;
+	font-family:MuseoSlab;
+	width:100%;
+	height:100%;
+	background:#fff;
+	}
+/*Type Styling */
+
+h1{
+	font-size:5rem;
+	line-height:5rem;
+	padding-bottom:1.5rem;
+
+	}
+h2{
+	font-size:3.5rem;
+	line-height:4rem;
+	}
+h3{
+	font-size:2.5rem;
+	line-height:3rem;
+	}
+h4{
+	font-size:2rem;
+	line-height:4rem;
+	}
+p{
+	font-size:1.5rem;
+	line-height:2rem;
+	}
+	
+div.details ul li{
+	font-family:MuseoSlabItalic;
+	font-size:2rem;
+	line-height:3rem;
+	list-style-type: disc;
+	margin-left:6vw;
+	}
+	
+	
+/*structure*/
+.container{width:100%;padding:0 6rem;}
+div.about_company, #gallerydiv {
+	padding:6rem 0;
+	border-bottom:black solid .5rem;
+	}
+
+div.about_company img{
+	width:37.5vw;
+	height:auto;
+	float:left;
+	}
+	
+div.about {
+	display:block;
+	margin-left:37.5vw;
+	padding-left:3rem;
+	}
+	
+div.about_company h3{
+	padding-bottom:1.5rem;
+	}
+	
+#detailswrap, div.about_company h3 {
+	clear:both;
+	margin:3rem 0 0;
+	
+	}
+.rightlink{text-align:right;text-decoration:underline;}
+
+div.details {float:left;}
