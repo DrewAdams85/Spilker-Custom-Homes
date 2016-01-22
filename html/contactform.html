@@ -52,65 +52,24 @@
                 </li>
             </ul>
         </div> <!-- End CSS MENU -->
-        <h1 hidden>Images</h1>
-        <div class="innerwrap">
+        <div class="container">
         
-            <div class="container">
-        <div class="content-container">
-                <div class="full-team-bios">
-                    <div class="full-bio">
-                        <div class="row">
-                            <div class="image_box">
-                                <div class="image-cropper">
-                                    <img class="bio-img"src="../images/nick.jpg">
-                                </div>
-                            </div>
-                            <div class="bio_box">
-                                <div class="bio-name"><h1>Nick Spilker</h1></div>
-                                <div class="bio-title"><h2>Owner, Manager</h2></div>
-                                <div class="bio-text tab">
-                                    <p>Nick works directly with his clients and helps them create the homes they have always wanted. Nick graduated with a degree in business management. Has been trained by his father who has worked building custom homes since 1976. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="full-bio">
-                        <div class="row">
-                            <div class="image_box">
-                                <div class="image-cropper">
-                                    <img class="bio-img"src="../images/clark.jpg">
-                                </div>
-                            </div>
-                            <div class="bio_box">
-                                <div class="bio-name"><h1>Clark H Spilker</h1></div>
-                                <div class="bio-title"><h2>Owner</h2></div>
-                                <div class="bio-text tab">
-                                	<p>Clark Spilker has been building homes in the St George area since 1976. He attended the University of Utah and studied Business Management and Finance. He has served his country in the Armed Services. He is married to his lovely wife Janet and they are the pleased parents of 5 children. Janet and I have personally built and lived in over 21 homes. We have first hand experience not only with the many clients we have built for but also our own personal experience. The wealth of information that we can pass on to you in the design and construction of your new home is worth a great deal. Give us a call and let us help you set your dreams into reality.</p></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="full-bio">
-                        <div class="row">
-                            <div class="image_box">
-                                <div class="image-cropper">
-                                    <img src="../images/janet.jpg" style="width: 100%; margin-top: -18.5px;">
-                                </div>
-                            </div>
-                            <div class="bio_box">
-                                <div class="bio-name"><h1>Janet Spilker</h1></div>
-                                <div class="bio-title"><h2>Owner</h2></div>
-                                <div class="bio-text tab">
-                                	<p>Janet Spilker has been helping clients of the Spilker Team for over 22 years. Her expertise is in product selection and customer service. Any thing you are shopping for on your new home she will help you choose the right product for the right price. She has a wealth of knowledge about products that she will pass on to you. Any questions that you have or concerns she is always there to help you.</p></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div> <!--end full-bio -->
+        	<div id="formwrap">
+        		<h1>Contact us now</h1>        
+                <form method="post" action="form_processor.php">
+                    <label for="fname">First Name:</label><input type="text" name="fname" id="fname" width="250">
+                    <label for="lname">Last Name:</label><input type="text" name="lname" id="lname" width="250"><br>
+                    <label for="email">Email:</label><input type="text" name="email" id="email" width="250">
+                    <label for="phone"> Phone:</label><input type="tel" name="phone" id="phone" width="250"><br>
+                    <label for="comments">Comments:</label><br>
+                    <textarea name="comments" id="comments" placeholder="Any other comments?" rows="30" cols="50"></textarea><br>
+                    <div class="center"><input type="submit" name="submit" id="submit" value="Submit"><br></div>
+                </form>
             
-        <div class="contact">
+			</div>
+            <div class="contact">
             	<div id="contactwrap">
-                  <h1>Contact Us</h1>
+                  <h1>Need a person?</h1>
                   <h4>Give us a call and let us make your dream home into reality.</h4>
                   <div class="contact_details">
                   <h3>Phone</h3>
@@ -137,9 +96,9 @@
                     </iframe>
                 </section>
             </div><!---ENd of contact div -->
-        </div><!-- end innerwrap -->
-            </div>
-
+            
+        </div><!-- end container -->
+    
     </div><!-- end page wrap-->
 </body>
 <footer>

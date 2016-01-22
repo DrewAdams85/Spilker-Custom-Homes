@@ -16,10 +16,18 @@
     width: 33%;
     text-align: center;
     float: right;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+	padding-bottom:2rem;
+	padding-top:1rem;
 }
+.colleft{
+	padding-right:2rem;
+	}
+.colmid{
+	padding:1rem;
+	}
+.colright{
+	padding-left:2rem;
+	}
 .content-left {
     padding-right: 0px;
     padding-left: 0px;
@@ -42,7 +50,7 @@
 .container {
     padding-top: 15px;
     position: relative;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFFF;
@@ -50,7 +58,7 @@
 .container-contact {
     padding-top: 15px;
     position: relative;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFFF;
@@ -90,7 +98,6 @@ body, html{
     font-size: 15px;
 }
 body {
-    font-family: source-sans-pro;
     background-color: #f2f2f2;
     margin-top: 0px;
     margin-right: 0px;
@@ -178,7 +185,6 @@ body {
   margin-top: -15px;
 }
 .full-team-bios .full-bio .bio-name {
-    font-family: 'Nixie One';
     letter-spacing: 1px;
     font-size: 22px;
     line-height: 25px;
@@ -239,7 +245,6 @@ body {
 }
 #cssmenu {
     width: auto;
-    font-family: Raleway, sans-serif;
     line-height: 1;
 }
 #cssmenu > ul {
