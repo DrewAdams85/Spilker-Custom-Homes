@@ -16,57 +16,60 @@
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
     <link rel="stylesheet" href="../style/style.css" />
     <link rel="stylesheet" href="../style/style2.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
 
     <script src="../js/script.js"></script>
     <script src="../js/navmenu.js"></script>
-    <meta name="description" content="St. George custom homes ★★★★★ customer reviews. Over 36 years of building experience. Family owned and operated. Check out our gallery for homes we have built.">
+    <meta NAME="description" CONTENT="Spilker Homes best in class for custom homes. Award winning Parade of Homes. Over 40 years building experience.">
+    <meta name="keywords" content="St. George custom homes, St. George luxury homes, St. George general contractor">
+    <link rel="/images/spilkercustomhomes2.png" href="http://www.SpilkerCustomHomes.com" / >
     <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-72269235-2', 'auto');
-        ga('send', 'pageview');
-    </script>
+  ga('create', 'UA-72269235-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body id="home">
-    <div class="page-wrap">
-        <div id="cssmenu">
-            <ul>
-                <li class="active"><a href="index.html">Home</a>
-                </li>
-                <li><a href="about.html">About Us</a>
-                </li>
-                <li><a href="gallery.html">Photo Gallery</a>
-                </li>
-                <li><a href="contact.html">Contact</a>
-                </li>
+    <div class="logo-nav">
+            <p class="name">SPILKER CUSTOM HOMES</p>
+        </div>
+        <nav class="navbar navbar-default" role="navigation">
+            <ul class="nav navbar-nav">
+                <!--<li class="pull-left"><a href="#">Dashboard</a></li>-->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><img class="img" src="/images/logo.png"></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!--<li class="social pull-right"><a href="#">Social Links</a></li>-->
             </ul>
-        </div> <!-- End CSS MENU -->
+        </nav>
         <div class="container">
         
         	<div id="formwrap">
-        		<h1>Contact us now</h1>        
-                <form method="post" action="form_processor.php">
-                    <label for="fname">First Name:</label><input type="text" name="fname" id="fname" width="250">
-                    <label for="lname">Last Name:</label><input type="text" name="lname" id="lname" width="250"><br>
-                    <label for="email">Email:</label><input type="text" name="email" id="email" width="250">
-                    <label for="phone"> Phone:</label><input type="tel" name="phone" id="phone" width="250"><br>
-                    <label for="comments">Comments:</label><br>
-                    <textarea name="comments" id="comments" placeholder="Any other comments?" rows="30" cols="50"></textarea><br>
-                    <div class="center"><input type="submit" name="submit" id="submit" value="Submit"><br></div>
+                <h1>Contact us now</h1>
+                <form method="POST" action="http://formspree.io/nickspilker19@gmail.com">
+                    <label for="name">Name:</label>
+                    <input type="text" name="Name" required>
+                    <label for="phone"> Phone:</label>
+                    <input type="tel" name="Phone">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="E-mail" required>
+                    <br>
+                    <label for="comments">Comments / Questions:</label>
+                    <br>
+                    <textarea name="comments" id="comments" placeholder="Leave us a comment or a question." rows="15" cols="50"></textarea>
+                    <br>
+                    <input type="submit" value="Send">
                 </form>
-            
-			</div>
+                </div><!-- end container -->
             <div class="contact">
             	<div id="contactwrap">
                   <h1>Need a person?</h1>
@@ -97,7 +100,7 @@
                 </section>
             </div><!---ENd of contact div -->
             
-        </div><!-- end container -->
+        
     
     </div><!-- end page wrap-->
 </body>

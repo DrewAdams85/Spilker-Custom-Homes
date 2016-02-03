@@ -3,7 +3,9 @@
     height: 500px;
     background: #000
 }
+
 .gallery {
+    margin-top:10px;
     width: 100%;
     height: 100%;
 }
@@ -13,7 +15,8 @@
     box-shadow: 0 0 20px #000000;
 }
 .gallery-column {
-    width: 33%;
+    margin:10px;
+    width: 31%;
     text-align: center;
     float: right;
 	padding-bottom:2rem;
@@ -32,8 +35,21 @@
     padding-right: 0px;
     padding-left: 0px;
 }
+.modal-image{
+    margin-top: 5px;
+}
+.modal.in .modal-dialog {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    width: 80%;
+    height: 50%;
+}
+.modal-title{
+    text-align: center;
+}
 .carousel {
-
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -54,6 +70,48 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFFF;
+}
+.img{
+    height:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.toplogo{
+    height:60px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+    font-family: MuseoSlab;
+    text-transform: uppercase;
+    font-size: large;
+}
+.navbar-default {
+    background: #a60d0d;
+    background-image: -webkit-linear-gradient(top, #a60d0d, #760909);
+    background-image: -moz-linear-gradient(top, #a60d0d, #760909);
+    background-image: -ms-linear-gradient(top, #a60d0d, #760909);
+    background-image: -o-linear-gradient(top, #a60d0d, #760909);
+    background-image: linear-gradient(to bottom, #a60d0d, #760909);
+    border:none !important;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    height:60px;
+}
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  
+}
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+
+.logo-nav{
+    text-align: center;
+    height:80px;
+    background-color: #a60d0d;
 }
 .container-contact {
     padding-top: 15px;
@@ -77,6 +135,11 @@ body, html{
 .page-wrap{
   min-height: 100%;
 }
+.name{
+    color:#FFFFFF;
+    font-size: 55px;
+    padding-top: 20px;
+}
 .maps{
   padding-bottom: 15px;
 }
@@ -85,15 +148,20 @@ body, html{
 }
 .footer, .page-wrap:after {
     height: 50px;
-    background-color: #464646;
+    background: #a60d0d;
+    background-image: -webkit-linear-gradient(top, #a60d0d, #760909);
+    background-image: -moz-linear-gradient(top, #a60d0d, #760909);
+    background-image: -ms-linear-gradient(top, #a60d0d, #760909);
+    background-image: -o-linear-gradient(top, #a60d0d, #760909);
+    background-image: linear-gradient(to bottom, #a60d0d, #760909);
     width: 100%;
     text-align: center;
     color: #FFFFFF;
     position:absolute;
 
 }
-.footer small {
 
+.footer small {
     color: #FFFFFF;
     font-size: 15px;
 }
@@ -149,9 +217,6 @@ body {
         float: left;
         margin-top: 10px;
     }
-}
-.logo{
-  height:80px
 }
 .aboutlogo {
     float: right;
@@ -251,25 +316,36 @@ body {
     line-height: 1;
 }
 #cssmenu > ul {
-    height: 80px;
-    background: #000000;
+    text-align: center;
+    height: 60px;
+    background: #a60d0d;
+    background-image: -webkit-linear-gradient(top, #a60d0d, #760909);
+    background-image: -moz-linear-gradient(top, #a60d0d, #760909);
+    background-image: -ms-linear-gradient(top, #a60d0d, #760909);
+    background-image: -o-linear-gradient(top, #a60d0d, #760909);
+    background-image: linear-gradient(to bottom, #a60d0d, #760909);
 }
 #cssmenu > ul > li {
-    left: 33%;
+    left:34.5%;
     float: left;
     -webkit-perspective: 1000px;
     perspective: 1000px;
 }
 #cssmenu > ul > li > a {
-    padding: 26px 20px;
+    padding: 20px 20px;
     font-size: 20px;
-    height: 80px;
+    height: 59px;
     font-weight: bold;
     color: #FFFFFF;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
-    background: #000000;
+    background: #a60d0d;
+    background-image: -webkit-linear-gradient(top, #a60d0d, #760909);
+    background-image: -moz-linear-gradient(top, #a60d0d, #760909);
+    background-image: -ms-linear-gradient(top, #a60d0d, #760909);
+    background-image: -o-linear-gradient(top, #a60d0d, #760909);
+    background-image: linear-gradient(to bottom, #a60d0d, #760909);
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -299,7 +375,7 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
-    height: 80px;
+    height: 60px;
     padding: 20px 20px;
     color: #FFFFFF;
     background: #FFFFFF;
@@ -317,7 +393,12 @@ body {
 }
 #cssmenu > ul > li:hover > a::before,
 #cssmenu > ul > li > a:hover::before {
-    background: #000000;
+    background: #a60d0d;
+    background-image: -webkit-linear-gradient(top, #a60d0d, #760909);
+    background-image: -moz-linear-gradient(top, #a60d0d, #760909);
+    background-image: -ms-linear-gradient(top, #a60d0d, #760909);
+    background-image: -o-linear-gradient(top, #a60d0d, #760909);
+    background-image: linear-gradient(to bottom, #a60d0d, #760909);
 }
 #cssmenu.small-screen {
     width: 100%;
@@ -335,7 +416,12 @@ body {
 }
 #cssmenu.small-screen > ul > li:hover > a,
 #cssmenu.small-screen > ul > li > a:hover {
-    background: #000000;
+    background: #a60d0d;
+    background-image: -webkit-linear-gradient(top, #a60d0d, #760909);
+    background-image: -moz-linear-gradient(top, #a60d0d, #760909);
+    background-image: -ms-linear-gradient(top, #a60d0d, #760909);
+    background-image: -o-linear-gradient(top, #a60d0d, #760909);
+    background-image: linear-gradient(to bottom, #a60d0d, #760909);
 }
 #cssmenu.small-screen > ul > li > a::before {
     display: none;
@@ -343,14 +429,19 @@ body {
 #cssmenu.small-screen #menu-button {
     display: block;
     padding: 25px 20px;
-    height: 80px;
+    height: 60px;
     cursor: pointer;
     font-size: 25px;
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    background: #000000;
+    background: #a60d0d;
+    background-image: -webkit-linear-gradient(top, #a60d0d, #760909);
+    background-image: -moz-linear-gradient(top, #a60d0d, #760909);
+    background-image: -ms-linear-gradient(top, #a60d0d, #760909);
+    background-image: -o-linear-gradient(top, #a60d0d, #760909);
+    background-image: linear-gradient(to bottom, #a60d0d, #760909);
 }
 #cssmenu.small-screen #menu-button:after {
     content: "";
