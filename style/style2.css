@@ -97,6 +97,7 @@ div.about_company h3{
 	}
 	
 #detailswrap, div.about_company h3,#linkholder {
+	padding-top: 10px;
 	clear:both;
 	margin:0 0;
 	}
