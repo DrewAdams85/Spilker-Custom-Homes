@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: MuseoSlab;
+    src: url(../assets/museo_slab_500_2-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSlabItalic;
+    src: url(../assets/museo_slab_500italic-webfont.ttf);
+}
+
+
+html,body{
+	font-size:.75vw;
+	line-height:.75vw;
+	color:#000;
+	font-family:MuseoSlab;
+	width:100%;
+	height:100%;
+	background:#fff;
+	}
+/*Type Styling */
+
+h1{
+	font-size:4.75rem;
+	line-height:4rem;
+	padding-bottom:1.5rem;
+	margin-top:-.75rem;
+
+	}
+h2{
+	font-size:3.5rem;
+	line-height:4rem;
+	}
+h3, label{
+	font-size:2.5rem;
+	line-height:3rem;
+	}
+h4{
+	font-size:2rem;
+	line-height:4rem;
+	}
+p{
+	font-size:1.75rem;
+	line-height:2.5rem;
+	}
+	
+a{color:#df4f33;}
+	
+strong{
+	font-weight:bold;
+	}
+div.details ul li{
+	font-family:MuseoSlabItalic;
+	font-size:2rem;
+	line-height:3rem;
+	list-style-type: disc;
+	margin-left:6vw;
+	}
+	
+input{
+	font-size:1.75em;
+	height:2.75rem;
+	margin:1.5rem;
+	width:30rem;
+	padding:.25rem;
+	}
+
+textarea{
+	padding:3rem;
+	font-size:1.75em;
+	width:82rem;}
+
+	
+/*structure*/
+.container{width:100%;padding:0 6rem;}
+div.about_company, #gallerydiv, .full-bio, #formwrap {
+	padding:6rem 0 4rem;
+	border-bottom:black solid .5rem;
+	}
+
+div.about_company img{
+	width:33.3vw;
+	height:auto;
+	float:left;
+	margin-top:10rem;
+	}
+	
+div.about {
+	display:block;
+	margin:0 0 0 33.3vw;
+	padding:0 0 0 3rem;
+	}
+	
+div.about_company h3{
+	padding-bottom:1.5rem;
+	}
+	
+#detailswrap, div.about_company h3,#linkholder {
+	padding-top: 10px;
+	clear:both;
+	margin:0 0;
+	}
+
+.rightlink{
+	text-align:right;
+	text-decoration:underline;
+	padding-top:2rem;}
+
+.last{text-align:left;}
+
+div.details {float:left;}
+
+div.details h3{padding-top:3rem;}
+
+div.contact{
+	padding:6rem 0 4rem;
+	}
+div.contact_details{
+	margin-bottom:3rem;
+	}
+div.contact_details h3{
+	padding-bottom:1rem;
+	}
+div.contact_details strong{font-size:2rem;}
+
+#contactwrap{
+	width:55%;
+	float:left;
+	padding:0 3rem 0 0;
+	}
+
+.maps{
+	width:45%;
+	height:40vw;
+	margin-left:55%;
+	
+	}
+	
+	
+	
+/*About Page */
+.row{margin:0;}
+div.full-bio{width:100%;}
+div.image_box{
+	width:25%;
+	text-align:center;
+	float:left;
+	}
+div.bio_box{
+	width:70%;
+	height:auto;
+	margin-left:30%;
+	}
+.bio-name, .bio-title, div.bio-title h3, div.bio-name h1{
+	margin:0;
+	padding:0;
+	line-height:3rem; 
+	}
+
+div.image-cropper{
+	margin:2.75rem 0 3.5rem;	}
+	
+/*contactform*/
+#fname{width:23.75rem;}
+#lname{width:24.75rem;}
+.center{margin-left:35rem;}
+#submit{width:10rem;margin:3rem auto; padding:1rem;}
+
