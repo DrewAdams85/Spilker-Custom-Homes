@@ -1,20 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
-@font-face {
-    font-family: MuseoSlab;
-    src: url(../assets/museo_slab_500_2-webfont.ttf);
-}
-@font-face {
-    font-family: MuseoSlabItalic;
-    src: url(../assets/museo_slab_500italic-webfont.ttf);
-}
-
-
 html,body{
 	font-size:.75vw;
 	line-height:.75vw;
 	color:#000;
-	font-family:MuseoSlab;
+	font-family:cinzel;
 	width:100%;
 	height:100%;
 	background:#fff;
@@ -22,38 +12,96 @@ html,body{
 /*Type Styling */
 
 h1{
-	font-size:4.75rem;
-	line-height:4rem;
+	font-size:36pt;
+	line-height:1.25em;
 	padding-bottom:1.5rem;
-	margin-top:-.75rem;
-
+	
 	}
 h2{
-	font-size:3.5rem;
-	line-height:4rem;
-	}
+	font-size:24pt;
+	line-height:1.25em;
+}
 h3, label{
-	font-size:2.5rem;
-	line-height:3rem;
-	}
+	font-size:21pt;
+	line-height:1.25em;
+}
 h4{
-	font-size:2rem;
-	line-height:4rem;
-	}
+	font-size:20pt;
+	line-height:1.25em;
+}
 p{
-	font-size:1.75rem;
-	line-height:2.5rem;
+	font-size:18pt;
+	line-height:1.25em;
+	font-weight: 540;
+}
+p.review{
+	font-size:16pt;
+	line-height:1em;
+	font-weight: 540;
+}
+li{
+	font-size: 18pt;
+	line-height:1.25em;
+}
+@media (max-device-width: 375px) {
+    h1 {
+        font-size: 4.75em;
+        line-height: 4rem;
+        padding-bottom: 1.5rem;
+        margin-top: -.75rem;
+        font-weight: 900;
+    }
+    h2 {
+        font-size: 3.75em;
+        line-height: 1.15384615em;
+    }
+    h3,
+    label {
+        font-size: 3.25em;
+        line-height: 1.136363634em;
+    }
+    h4 {
+        font-size: 3em;
+        line-height: 1.1111111em;
+    }
+    p {
+        font-size: 3.75em;
+        line-height:.75em;
+    }
+    .navbar-default .navbar-nav>li>a {
+    color: #003399;
+    font-weight: 700;
+    font-size: 1.25em;
 	}
-	
+    li{
+    	font-size: 3.25em !important;
+    	line-height: 1em;
+    }
+    p.adress{
+        font-size: 4em;
+        line-height: 1em;
+    }
+    p.tab2{
+    	text-indent: 40px;
+    	font-size:3.25em;
+    	line-height:.55em !important;
+    }
+    .bio-name{
+    	font-weight: bold;
+    	font-size: 4em;
+    	line-height: 1.5em;
+    }
+}
 a{color:#df4f33;}
+a:hover{color:#003399 ;}
 	
 strong{
 	font-weight:bold;
 	}
 div.details ul li{
-	font-family:MuseoSlabItalic;
-	font-size:2rem;
-	line-height:3rem;
+	font-family:cinzel;
+	font-size:2.1em;
+	line-height:1.3em;
 	list-style-type: disc;
 	margin-left:6vw;
 	}
@@ -74,70 +122,78 @@ textarea{
 	
 /*structure*/
 .container{width:100%;padding:0 6rem;}
-div.about_company, #gallerydiv, .full-bio, #formwrap {
-	padding:6rem 0 4rem;
-	border-bottom:black solid .5rem;
+div.about_company, #gallerydiv, .full-bio {
+	padding:4rem 0 4rem;
+	border-bottom:#003399 solid .5rem;
 	}
-
-div.about_company img{
-	width:33.3vw;
-	height:auto;
-	float:left;
-	margin-top:10rem;
-	}
-	
-div.about {
-	display:block;
-	margin:0 0 0 33.3vw;
-	padding:0 0 0 3rem;
-	}
-	
 div.about_company h3{
 	padding-bottom:1.5rem;
 	}
-	
 #detailswrap, div.about_company h3,#linkholder {
-	padding-top: 10px;
+
 	clear:both;
 	margin:0 0;
 	}
-
+div.about {
+	margin-bottom: 15px;
+}
 .rightlink{
 	text-align:right;
 	text-decoration:underline;
-	padding-top:2rem;}
+	}
 
 .last{text-align:left;}
 
-div.details {float:left;}
+div.details {
+	float:left;
+	width:50%;
+}
 
 div.details h3{padding-top:3rem;}
-
+div.contact-us{
+	margin-bottom: 10px;
+}
 div.contact{
 	padding:6rem 0 4rem;
+	border-bottom:#003399 solid .5rem;
 	}
 div.contact_details{
 	margin-bottom:3rem;
 	}
-div.contact_details h3{
-	padding-bottom:1rem;
-	}
-div.contact_details strong{font-size:2rem;}
+
+
 
 #contactwrap{
-	width:55%;
+	width:50%;
 	float:left;
 	padding:0 3rem 0 0;
+	height:30%;
 	}
-
+.expectation{
+	width:50%;
+	float:right;
+	padding:0 3rem 0 0;
+	height:30%;
+}
+.contact-expectation{
+	border-bottom:#003399 solid .5rem;
+}
 .maps{
 	width:45%;
 	height:40vw;
 	margin-left:55%;
-	
 	}
-	
-	
+#formwrap{
+	margin-top: 15px;
+	border-bottom:#003399 solid .5rem;
+}
+@media (max-device-width: 375px) {
+	.maps{
+	width:45%;
+	height:65vw;
+	margin-left:55%;
+	}
+}	
 	
 /*About Page */
 .row{margin:0;}
@@ -150,16 +206,16 @@ div.image_box{
 div.bio_box{
 	width:70%;
 	height:auto;
-	margin-left:30%;
+	margin-left:28%;
 	}
 .bio-name, .bio-title, div.bio-title h3, div.bio-name h1{
 	margin:0;
 	padding:0;
-	line-height:3rem; 
+	line-height:.8em; 
 	}
 
 div.image-cropper{
-	margin:2.75rem 0 3.5rem;	}
+	margin:1rem 0 1rem;	}
 	
 /*contactform*/
 #fname{width:23.75rem;}

@@ -4,14 +4,20 @@
 
 <head>
     <!-- Created by BuildSoftSystems LLC. -->
-    <title>Gallery</title>
-    <meta NAME="description" CONTENT="Spilker Homes best in class for custom homes. Award winning Parade of Homes. Over 40 years building experience.">
+    <title>Spilker Custom Homes | Gallery | Luxury Floor Plans</title>
+
+    <meta NAME="description" CONTENT="Spilker Custom Homes Gallery: see traditional, modern, & contemporary floor plans. Over 40 years building experience. Let us help you design your dream home.">
 
     <meta name="keywords" content="St. George custom homes, St. George luxury homes, St. George general contractor">
     <meta charset="utf-8">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 32000
+        });
+    </script>
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <link rel="stylesheet" href="/http:/code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
@@ -19,21 +25,37 @@
     <link rel="stylesheet" href="../style/style.css" />
     <link rel="stylesheet" href="../style/style2.css" />
     <link rel="shortcut icon" href="/images/favicon.ico" />
-    <script src="../js/navmenu.js"></script>
-    
-    <link rel="/images/spilkercustomhomes2.png" href="http://www.SpilkerCustomHomes.com" / >
+
+    <div id="fb-root"></div>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
-  ga('create', 'UA-72269235-1', 'auto');
-  ga('send', 'pageview');
+    <link rel="/images/spilkercustomhomes2.png" href="http://www.SpilkerCustomHomes.com" />
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-</script>
+        ga('create', 'UA-72269235-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
-
 <body id="home">
     <div class="page-wrap">
         <div class="logo-nav">
@@ -42,21 +64,520 @@
         <nav class="navbar navbar-default" role="navigation">
             <ul class="nav navbar-nav">
                 <!--<li class="pull-left"><a href="#">Dashboard</a></li>-->
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><img class="img" src="/images/logo.png"></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="gallery.html">Gallery</a>
+                </li>
+                <li><img class="img" src="../images/logo.png">
+                </li>
+                <li><a href="about.html">About Us</a>
+                </li>
+                <li><a href="contact.html">Contact</a>
+                </li>
                 <!--<li class="social pull-right"><a href="#">Social Links</a></li>-->
             </ul>
         </nav>
         <div class="container">
             <div>
-                <div class="gallery-column">
-                    <h2>EXTERIOR</h2>
-                        <img data-toggle="modal" data-target="#exteriorModal" class="gallery" src="../images/thumb1.jpg" alt="Exterior">
-                        
+                <div class="gallery-column2 colleft">
+                    <h2>Paragon</h2>
+                    <img data-toggle="modal" data-target="#paragon1Modal" class="gallery" src="../images/paragon/thumb.jpg" alt="St. George Master Bedroom and Dining Builder Architecture Floor Plans Style">
+                    
                 </div>
+                <!-- Modal -->
+                <div id="paragon1Modal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">Paragon Home Gallery</h2>
+                            </div>
+                            <div class="modal-body">
+                                <div id="paragon1Carousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#paragon1Carousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#paragon1Carousel" data-slide-to="1"></li>
+                                        <li data-target="#paragon1Carousel" data-slide-to="2"></li>
+                                        <li data-target="#paragon1Carousel" data-slide-to="3"></li>
+                                        <li data-target="#paragon1Carousel" data-slide-to="4"></li>
+                                        <li data-target="#paragon1Carousel" data-slide-to="5"></li>
+                                        <li data-target="#paragon1Carousel" data-slide-to="6"></li>
+                                        <li data-target="#paragon1Carousel" data-slide-to="7"></li>
+                                        <li data-target="#paragon1Carousel" data-slide-to="8"></li>
+                                        <li data-target="#paragon1Carousel" data-slide-to="9"></li>
+                                    </ol>
+                                    <!-- Wrapper for carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="../images/paragon/1.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/paragon/2.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/paragon/3.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/paragon/5.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/paragon/6.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/paragon/7.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/paragon/8.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/paragon/9.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item active">
+                                            <img src="../images/paragon/10.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/paragon/11.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                    </div>
+                                    <!-- Carousel controls -->
+                                    <a class="carousel-control left" href="#paragon1Carousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="carousel-control right" href="#paragon1Carousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-column2 colmid">
+                    <h2>Foxborough</h2>
+                    <img data-toggle="modal" data-target="#hickeyModal" class="gallery" src="../images/hickey/thumb.jpg" alt="Exterior">
+                </div>
+                <!-- Modal -->
+                <div id="hickeyModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">Foxborough Home Gallery</h2>
+                            </div>
+                            <div class="modal-body">
+                                <div id="hickeyCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#hickeyCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#hickeyCarousel" data-slide-to="1"></li>
+                                        <li data-target="#hickeyCarousel" data-slide-to="2"></li>
+                                        <li data-target="#hickeyCarousel" data-slide-to="3"></li>
+                                        <li data-target="#hickeyCarousel" data-slide-to="4"></li>
+                                        <li data-target="#hickeyCarousel" data-slide-to="5"></li>
+                                        <li data-target="#hickeyCarousel" data-slide-to="6"></li>
+                                        <li data-target="#hickeyCarousel" data-slide-to="7"></li>
+                                        <li data-target="#hickeyCarousel" data-slide-to="8"></li>
+                                    </ol>
+                                    <!-- Wrapper for carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="../images/hickey/1.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/hickey/2.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/hickey/3.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/hickey/4.jpg" class="carousel-image" alt="Modern Floor Plans Architecture Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/hickey/5.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/hickey/6.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/hickey/7.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/hickey/8.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/hickey/9.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                    </div>
+                                    <!-- Carousel controls -->
+                                    <a class="carousel-control left" href="#hickeyCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="carousel-control right" href="#hickeyCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-column2 colright">
+                    <h2>Serenity</h2>
+                    <img data-toggle="modal" data-target="#navarModal" class="gallery" src="../images/navar/thumb.jpg" alt="add things here">
+                </div>
+                <!-- Modal -->
+                <div id="navarModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">Serenity Home Gallery</h2>
+                            </div>
+                            <div class="modal-body">
+                                <div id="navarCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#navarCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#navarCarousel" data-slide-to="1"></li>
+                                        <li data-target="#navarCarousel" data-slide-to="2"></li>
+                                        <li data-target="#navarCarousel" data-slide-to="3"></li>
+                                        <li data-target="#navarCarousel" data-slide-to="4"></li>
+                                        <li data-target="#navarCarousel" data-slide-to="5"></li>
+                                        <li data-target="#navarCarousel" data-slide-to="6"></li>
+                                        <li data-target="#navarCarousel" data-slide-to="7"></li>
+                                        <li data-target="#navarCarousel" data-slide-to="7"></li>
+                                    </ol>
+                                    <!-- Wrapper for carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="../images/navar/1.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/navar/2.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/navar/3.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/navar/4.jpg" class="carousel-image" alt="Modern Floor Plans Architecture Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/navar/5.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/navar/6.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/navar/7.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/navar/8.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            
+                                            <h1>Customer Review</h1>
+                                            <p><q>I will try and keep this brief, but it will be hard because there is so much to be said about our experience designing and building the perfect home with you. How about starting off with a huge Thank You!<p>Thank you for advising us on picking the most beautiful lot.<p>Thank you for taking the dream in our heads and turning it into a reality.<p>Thank you for your endless hours of time you spent both with us and in your office alone personally tweaking the design of our home before the foundation was even laid.<p>Thank you for staying within our budget and finishing the "oh so big" job right on schedule.<p>Thank you for emphazizing the function of our home over some of my "over the top ideas" (I wanted large single pane windows and an open fireplace and you saw the nightmare in heating and cooling it would cause).<p>Thank you for the small details in our home that make it such a pleasure to live in.<p>Most of all, thank you for the friendship that developed during the many hours we spent with both of you during the entire project. If we did not love our home so much we would design and build another custom home with the Spilker Team, because it was a way fun time in our life!
+                                            </q>
+                                            </p>
+                                            
+                                        </div>
+                                    </div>
+                                    <!-- Carousel controls -->
+                                    <a class="carousel-control left" href="#navarCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="carousel-control right" href="#navarCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="gallery-column2 colleft">
+                    <h2>Enclave</h2>
+                    <img data-toggle="modal" data-target="#chateauModal" class="gallery" src="../images/chateau/thumb.jpg" alt="St. George Master Bedroom and Dining Builder Architecture Floor Plans Style">
+                </div>
+                <!-- Modal -->
+                <div id="chateauModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">Enclave Home Gallery</h2>
+                            </div>
+                            <div class="modal-body">
+                                <div id="chateauCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#chateauCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="1"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="2"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="3"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="4"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="5"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="6"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="7"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="8"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="9"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="10"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="11"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="12"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="13"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="14"></li>
+                                        <li data-target="#chateauCarousel" data-slide-to="15"></li>
+                                    </ol>
+                                    <!-- Wrapper for carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="../images/chateau/1.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/2.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/3.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/4.jpg" class="carousel-image" alt="Modern Floor Plans Architecture Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/5.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/6.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/7.jpg" class="carousel-image" alt="Gallery">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/8.jpg" class="carousel-image" alt="Chateau">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/9.jpg" class="carousel-image" alt="Modern Floor Plans Architecture Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/10.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/11.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/12.jpg" class="carousel-image" alt="Gallery">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/13.jpg" class="carousel-image" alt="Chateau">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/14.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/15.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/chateau/16.jpg" class="carousel-image" alt="Gallery">
+                                        </div>
+
+                                    </div>
+                                    <!-- Carousel controls -->
+                                    <a class="carousel-control left" href="#chateauCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="carousel-control right" href="#chateauCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-column2 colmid">
+                    <h2>Coachella</h2>
+                    <img data-toggle="modal" data-target="#mcginnisModal" class="gallery" src="../images/mcginnis/thumb.jpg" alt="Exterior">
+                </div>
+                <!-- Modal -->
+                <div id="mcginnisModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">Coachella Home Gallery</h2>
+                            </div>
+                            <div class="modal-body">
+                                <div id="mcginnisCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#mcginnisCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#mcginnisCarousel" data-slide-to="1"></li>
+                                        <li data-target="#mcginnisCarousel" data-slide-to="2"></li>
+                                        <li data-target="#mcginnisCarousel" data-slide-to="3"></li>
+                                        <li data-target="#mcginnisCarousel" data-slide-to="4"></li>
+                                        <li data-target="#mcginnisCarousel" data-slide-to="5"></li>
+                                        <li data-target="#mcginnisCarousel" data-slide-to="6"></li>
+                                        <li data-target="#mcginnisCarousel" data-slide-to="7"></li>
+                                        <li data-target="#mcginnisCarousel" data-slide-to="8"></li>
+                                    </ol>
+                                    <!-- Wrapper for carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="../images/mcginnis/1.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/mcginnis/2.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/mcginnis/3.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/mcginnis/4.jpg" class="carousel-image" alt="Modern Floor Plans Architecture Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/mcginnis/5.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/mcginnis/6.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/mcginnis/7.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/mcginnis/8.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/mcginnis/9.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                    </div>
+                                    <!-- Carousel controls -->
+                                    <a class="carousel-control left" href="#mcginnisCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="carousel-control right" href="#mcginnisCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-column2 colright">
+                    <h2>Stone Ridge</h2>
+                    <img data-toggle="modal" data-target="#yorkshireModal" class="gallery" src="../images/yorkshire/thumb.jpg" alt="add things here">
+                </div>
+                <!-- Modal -->
+                <div id="yorkshireModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">Stone Ridge Home Gallery</h2>
+                            </div>
+                            <div class="modal-body">
+                                <div id="yorkshireCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#yorkshireCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#yorkshireCarousel" data-slide-to="1"></li>
+                                        <li data-target="#yorkshireCarousel" data-slide-to="2"></li>
+                                        <li data-target="#yorkshireCarousel" data-slide-to="3"></li>
+                                        <li data-target="#yorkshireCarousel" data-slide-to="4"></li>
+                                        <li data-target="#yorkshireCarousel" data-slide-to="5"></li>
+                                        <li data-target="#yorkshireCarousel" data-slide-to="6"></li>
+                                        <li data-target="#yorkshireCarousel" data-slide-to="7"></li>
+                                        <li data-target="#yorkshireCarousel" data-slide-to="8"></li>
+                                        <li data-target="#yorkshireCarousel" data-slide-to="9"></li>
+                                        <li data-target="#yorkshireCarousel" data-slide-to="10"></li>
+                                        <li data-target="#yorkshireCarousel" data-slide-to="11"></li>
+                                        <li data-target="#yorkshireCarousel" data-slide-to="12"></li>
+                                        <li data-target="#yorkshireCarousel" data-slide-to="13"></li>
+                                    </ol>
+                                    <!-- Wrapper for carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="../images/yorkshire/1.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/yorkshire/2.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/yorkshire/3.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/yorkshire/4.jpg" class="carousel-image" alt="Modern Floor Plans Architecture Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/yorkshire/5.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/yorkshire/6.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/yorkshire/7.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/yorkshire/8.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/yorkshire/9.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item active">
+                                            <img src="../images/yorkshire/10.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/yorkshire/11.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/yorkshire/12.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item active">
+                                            <img src="../images/yorkshire/13.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/yorkshire/14.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                    </div>
+                                    <!-- Carousel controls -->
+                                    <a class="carousel-control left" href="#yorkshireCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="carousel-control right" href="#yorkshireCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-column2 colmid">
+                    <h2>Exterior</h2>
+                    <img data-toggle="modal" data-target="#exteriorModal" class="gallery" src="../images/exterior/1.jpg" alt="add things here">
+                </div>
+
                 <!-- Modal -->
                 <div id="exteriorModal" class="modal fade" role="dialog">
                     <div class="modal-dialog">
@@ -67,30 +588,262 @@
                                 <h2 class="modal-title">Exterior Gallery</h2>
                             </div>
                             <div class="modal-body">
-                                <h1>Exterior</h1>
-                                <img class="gallery" src="../images/exterior1.jpg" alt="luxury floor plans exterior">
-
-                                <img class="gallery" src="../images/exterior2.jpg" alt="Exterior">
-
-                                <img class="gallery" src="../images/exterior3.jpg" alt="Exterior">
-
-                                <img class="gallery" src="../images/exterior5.jpg" alt="Exterior">
-
-                                <img class="gallery" src="../images/exterior6.jpg" alt="Exterior">
-
-                                <img class="gallery" src="../images/exterior7.jpg" alt="Exterior">
-
-                                <img class="gallery" src="../images/exterior8.jpg" alt="Exterior">
-
-                                <img class="gallery" src="../images/exterior10.jpg" alt="Exterior">
-                                <h1 class="modal-image">Pool</h1>
-                                <img class="gallery" src="../images/pool1.jpg" alt="Exterior">
-
-                                <img class="gallery" src="../images/pool2.jpg" alt="Exterior">
-
-                                <img class="gallery" src="../images/pool3.jpg" alt="Exterior">
-
-                                <img class="gallery" src="../images/pool4.jpg" alt="Exterior">
+                                <div id="exteriorCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#exteriorCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="1"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="2"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="3"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="4"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="5"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="6"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="7"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="8"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="9"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="10"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="11"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="12"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="13"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="14"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="15"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="16"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="17"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="18"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="19"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="20"></li>                                                                                          
+                                        <li data-target="#exteriorCarousel" data-slide-to="21"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="22"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="23"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="24"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="25"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="26"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="27"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="28"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="29"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="30"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="31"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="32"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="33"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="34"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="35"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="36"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="37"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="38"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="39"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="40"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="41"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="42"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="43"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="44"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="45"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="46"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="47"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="48"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="49"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="50"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="51"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="52"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="35"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="54"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="55"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="56"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="57"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="58"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="59"></li>
+                                        <li data-target="#exteriorCarousel" data-slide-to="60"></li>
+                                    </ol>
+                                    <!-- Wrapper for carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="../images/exterior/1.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/2.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/3.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/4.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/5.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/6.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/7.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/8.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/9.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item active">
+                                            <img src="../images/exterior/10.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/11.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                                                                <div class="item active">
+                                            <img src="../images/exterior/12.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/13.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/14.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/15.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/16.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/17.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/18.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/19.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item active">
+                                            <img src="../images/exterior/20.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/21.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item active">
+                                            <img src="../images/exterior/22.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/23.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/24.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/25.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/26.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/27.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/28.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/29.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item active">
+                                            <img src="../images/exterior/30.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/31.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/32.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/33.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/34.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/35.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/36.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/37.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/38.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/39.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item active">
+                                            <img src="../images/exterior/40.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/41.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/42.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/43.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/44.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/45.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/46.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/47.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/48.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/49.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item active">
+                                            <img src="../images/exterior/50.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/51.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/52.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/53.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/54.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/55.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/56.jpg" class="carousel-image" alt="Custom Floor Plans Dining Room">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/57.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/58.jpg" class="carousel-image" alt="Master Bedroom Style Plans,  St. George custom home builder">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/exterior/59.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
+                                        <div class="item active">
+                                            <img src="../images/exterior/60.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                    </div>
+                                    <!-- Carousel controls -->
+                                    <a class="carousel-control left" href="#exteriorCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="carousel-control right" href="#exteriorCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -98,68 +851,59 @@
                         </div>
                     </div>
                 </div>
-                <div class="gallery-column">
-                        <h2>KITCHEN & DINING</h2>
-                        <img data-toggle="modal" data-target="#kitchenModal" class="gallery" src="../images/thumb2.jpg" alt="Exterior">
-                        
+
+                <div class="gallery-column2 colright">
+                    <h2>Larkspur</h2>
+                    <img data-toggle="modal" data-target="#gisldorfModal" class="gallery" src="../images/gisldorf/thumb.jpg" alt="add things here">
+                    </a>
                 </div>
                 <!-- Modal -->
-                <div id="kitchenModal" class="modal fade" role="dialog">
+                <div id="gisldorfModal" class="modal fade" role="dialog">
                     <div class="modal-dialog">
                         <!-- Modal content-->
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h2 class="modal-title">Kitchen Gallery</h2>
+                                <h2 class="modal-title">Larkspur Home Gallery</h2>
                             </div>
                             <div class="modal-body">
-                                <h1>Kitchens</h1>
-                                <img class="gallery" src="../images/kitchen1.jpg" alt="Exterior">
-                                <img class="gallery" src="../images/kitchen2.jpg" alt="Exterior">
-                                <img class="gallery" src="../images/kitchen3.jpg" alt="Exterior">
-                                <img class="gallery" src="../images/kitchen4.jpg" alt="Exterior">
-                                <img class="gallery" src="../images/kitchen5.jpg" alt="Exterior">
-                                <h1 class="modal-image">Dining Rooms</h1>
-                                <img class="gallery" src="../images/dining1.jpg" alt="Exterior">
-                                <img class="gallery" src="../images/dining2.jpg" alt="Exterior">
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-column">
-                     <h2>INTERIOR</h2>
-                        <img data-toggle="modal" data-target="#interiorModal" class="gallery" src="../images/thumb3.jpg" alt="Exterior">
-                        
-                </div>
-                <!-- Modal -->
-                <div id="interiorModal" class="modal fade" role="dialog">
-                    <div class="modal-dialog">
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h2 class="modal-title">Interior Gallery</h2>
-                            </div>
-                            <div class="modal-body">
-                                <h1>Master Bedrooms</h1>
-                                <img class="gallery" src="../images/master2.jpg" alt="Exterior">
-                                <img class="gallery" src="../images/master1.jpg" alt="Exterior">
-                                
-                                <h1 class="modal-image">Bath</h1>
-                                <img class="gallery" src="../images/bath1.jpg" alt="Exterior">
+                                <div id="gisldorfCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#gisldorfCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#gisldorfCarousel" data-slide-to="1"></li>
+                                        <li data-target="#gisldorfCarousel" data-slide-to="2"></li>
+                                        <li data-target="#gisldorfCarousel" data-slide-to="3"></li>
+                                        <li data-target="#gisldorfCarousel" data-slide-to="4"></li>
 
-                                <img class="gallery" src="../images/bath2.jpg" alt="Exterior">
-                                <h1 class="modal-image">Family Rooms</h1>
-                                <img class="gallery" src="../images/family1.jpg" alt="Exterior">
+                                    </ol>
+                                    <!-- Wrapper for carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="../images/gisldorf/1.jpg" class="carousel-image" alt="St. George Custom home builder, we draw luxury floor plans">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/gisldorf/2.jpg" class="carousel-image" alt="Custom Build Home. Style, Luxury, Elegant, Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/gisldorf/3.jpg" class="carousel-image" alt="Modern Floor Plans Exterior Architecture, St. George luxury homes">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/gisldorf/4.jpg" class="carousel-image" alt="Modern Floor Plans Architecture Style">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../images/gisldorf/5.jpg" class="carousel-image" alt="Floor Plans Kitchen Architecture Style, St. George luxury homes">
+                                        </div>
 
-                                <img class="gallery" src="../images/family2.jpg" alt="Exterior">
-
-                                <img class="gallery" src="../images/family3.jpg" alt="Exterior">
-
-                                <img class="gallery" src="../images/family4.jpg" alt="Exterior">
+                                    </div>
+                                    <!-- Carousel controls -->
+                                    <a class="carousel-control left" href="#gisldorfCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="carousel-control right" href="#gisldorfCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
